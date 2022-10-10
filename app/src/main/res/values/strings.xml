@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SecureMessaging</string>
+    <string name="the_permission_required_by_this_application">The permission required by this application</string>
+    <string name="access_for_message">Access For Message</string>
+    <string name="tick_sign">✔</string>
+    <string name="caution_sign">⚠</string>
+    <string name="check_again">Check Again</string>
+    <string name="all_the_above_permission_are_required_by_this_application_in_order_to_work_if_the_app_is_stopped_asking_for_permission_provide_the_above_permission_by_going_to_the_setting_application_manager"><![CDATA[All the Above permission are required by this application in order to work if the app is stopped asking for permission provide the above permission by going to the setting>>application manager]]></string>
+    <string name="type_your_verification_code_here">Type your verification Code Here</string>
+    <string name="type_your_verification_code_here2">Type your Verification Code Here</string>
+    <string name="mh">mh</string>
+    <string name="verify">verify</string>
+</resources>

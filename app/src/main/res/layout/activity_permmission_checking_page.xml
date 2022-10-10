@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PermmissionCheckingPage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/the_permission_required_by_this_application"
+
+        android:textAlignment="center"
+        android:textColor="@color/checkColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <GridLayout
+        android:layout_width="408dp"
+        android:layout_height="630dp"
+        android:columnCount="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginTop="30dp">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:rowCount="1"
+            android:columnCount="2"
+            android:layout_margin="15dp"
+            android:layout_marginStart="30dp"
+            >
+
+            <TextView
+
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:text="@string/tick_sign"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                >
+
+            </TextView>
+
+            <TextView
+
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="@string/access_for_message"
+                android:gravity="center"
+                android:paddingEnd="150dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+
+                >
+
+            </TextView>
+
+
+            </GridLayout >
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:rowCount="1"
+            android:columnCount="2"
+            android:layout_margin="15dp"
+            android:layout_marginStart="30dp"
+            >
+
+            <TextView
+
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:text="@string/tick_sign"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                >
+
+            </TextView>
+
+            <TextView
+
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="Access For Contacts"
+                android:gravity="center"
+                android:paddingEnd="150dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+
+                >
+
+            </TextView>
+
+
+        </GridLayout >
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:rowCount="1"
+            android:columnCount="2"
+            android:layout_margin="15dp"
+            android:layout_marginStart="30dp"
+            >
+
+            <TextView
+
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:text="@string/tick_sign"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                >
+
+            </TextView>
+
+            <TextView
+
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="@string/access_for_message"
+                android:gravity="center"
+                android:paddingEnd="150dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+
+                >
+
+            </TextView>
+
+
+        </GridLayout >
+
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="1"
+            android:columnCount="2"
+            android:layout_margin="15dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="60dp"
+            >
+
+            <TextView
+
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:text="@string/caution_sign"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                >
+
+            </TextView>
+
+            <TextView
+
+                android:layout_width="334dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:justificationMode="inter_word"
+                android:text="@string/all_the_above_permission_are_required_by_this_application_in_order_to_work_if_the_app_is_stopped_asking_for_permission_provide_the_above_permission_by_going_to_the_setting_application_manager"
+
+                android:textSize="17sp"
+
+
+                >
+
+            </TextView>
+
+
+        </GridLayout >
+
+        <Button
+            android:id="@+id/check_again"
+
+            android:layout_gravity="center"
+            android:width="150dp"
+            android:background="@color/checkColor"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:text="@string/check_again"
+            android:textStyle="bold"
+
+
+           />
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

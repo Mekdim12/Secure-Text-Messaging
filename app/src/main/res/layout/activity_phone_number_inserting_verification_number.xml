@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneNumberInsertingVerificationNumber">
+
+    <TextView android:id="@+id/enterMessage"
+        android:layout_marginTop="100dp"
+        android:layout_height="50dp"
+        android:layout_width="410dp"
+        android:text="Enter Default Message Reciving Number"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="21sp"/>
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:inputType="none"
+        android:layout_below="@id/enterMessage"
+        android:labelFor="@id/numberField"
+        android:layout_marginLeft="15dp"
+        android:text="+251"
+        android:layout_marginStart="15dp" />
+
+    <EditText
+        android:id="@+id/numberField"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:layout_below="@id/enterMessage"
+        android:hint="Recipent_number_1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="70dp" />
+    <TextView
+        android:id="@+id/anotherNumber"
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/numberField"
+        android:text="do_you_want_enter_another_number"
+        android:layout_marginStart="170dp"
+        android:layout_marginLeft="170dp"
+        android:textColor="#0000ff"/>
+
+    <TextView
+        android:id="@+id/registerNumber"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/anotherNumber"
+        android:layout_marginStart="270dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="register"
+        android:textAlignment="center"
+        android:textFontWeight="50" />
+
+</RelativeLayout>
